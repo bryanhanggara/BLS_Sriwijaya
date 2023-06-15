@@ -1,0 +1,243 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9em;
+}
+body .form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+body .form .switch {
+  display: flex;
+}
+body .form .switch .btn-masuk {
+  width: 150px;
+  height: 45px;
+  color: white;
+  background: linear-gradient(90deg, hsl(341, 95%, 49%) 0%, hsl(331, 81%, 59%) 100%);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(255, 255, 255, 0.3);
+}
+body .form .switch .btn-masuk a {
+  text-decoration: none;
+  color: #ffffff;
+}
+body .form .switch .btn-daftar {
+  margin-left: -40px;
+  width: 150px;
+  height: 45px;
+  border: none;
+  background: white;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(255, 255, 255, 0.3);
+}
+body .form .switch .btn-masuk:active {
+  background: linear-gradient(90deg, hsl(341, 95%, 49%) 0%, hsl(331, 81%, 59%) 100%);
+}
+body .form .switch .btn-masuk:active a {
+  color: white;
+}
+body .form .switch .btn-daftar:active {
+  background: linear-gradient(90deg, hsl(341, 95%, 49%) 0%, hsl(331, 81%, 59%) 100%);
+}
+body .form .switch .btn-daftar:active a {
+  color: white;
+}
+body .form .switch a {
+  text-decoration: none;
+  color: #162938;
+}
+body .form .login .input {
+  position: relative;
+  width: 350px;
+  height: 50px;
+  border-bottom: 2px solid #162938;
+  margin: 30px 0;
+}
+body .form .login .input label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  font-weight: 500;
+  pointer-events: none;
+  transition: 0.5s;
+}
+body .form .login .input input:focus ~ label,
+body .form .login .input input:valid ~ label {
+  top: -5px;
+}
+body .form .login .input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1em;
+  color: #162938;
+  font-weight: 600;
+  padding-right: 35px;
+}
+body .form .login .input .icon {
+  position: absolute;
+  right: 8px;
+  font-size: 1.2em;
+  color: #162938;
+  line-height: 3;
+}
+body .form .login .re-got a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #162938;
+}
+body .form .login .btn {
+  width: 100%;
+  height: 45px;
+  color: white;
+  background: linear-gradient(90deg, hsl(341, 95%, 49%) 0%, hsl(331, 81%, 59%) 100%);
+  border-radius: 50px;
+  cursor: pointer;
+}
+body .form .social img {
+  margin-right: 5px;
+}
+body .form .bls_tittle {
+  width: 200px;
+}
+body .image_u {
+  background-image: url(../images/unsri.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 110vh;
+}
+body .mobile {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+body .mobile .switch {
+  display: flex;
+}
+body .mobile .switch .btn-masuk {
+  width: 150px;
+  height: 45px;
+  color: white;
+  background: linear-gradient(90deg, hsl(341, 95%, 49%) 0%, hsl(331, 81%, 59%) 100%);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(255, 255, 255, 0.3);
+}
+body .mobile .switch .btn-daftar {
+  margin-left: -40px;
+  width: 150px;
+  height: 45px;
+  color: white;
+  border: none;
+  background: white;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(255, 255, 255, 0.3);
+}
+body .mobile .switch .btn-masuk:active {
+  background: linear-gradient(90deg, hsl(341, 95%, 49%) 0%, hsl(331, 81%, 59%) 100%);
+}
+body .mobile .switch .btn-masuk:active a {
+  color: white;
+}
+body .mobile .switch .btn-daftar:active {
+  background: linear-gradient(90deg, hsl(341, 95%, 49%) 0%, hsl(331, 81%, 59%) 100%);
+}
+body .mobile .switch .btn-daftar:active a {
+  color: white;
+}
+body .mobile .switch a {
+  text-decoration: none;
+  color: #162938;
+}
+body .mobile .login .input {
+  position: relative;
+  width: 350px;
+  height: 50px;
+  border-bottom: 2px solid #162938;
+  margin: 30px 0;
+}
+body .mobile .login .input label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  font-weight: 500;
+  pointer-events: none;
+  transition: 0.5s;
+}
+body .mobile .login .input input:focus ~ label,
+body .mobile .login .input input:valid ~ label {
+  top: -5px;
+}
+body .mobile .login .input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1em;
+  color: #162938;
+  font-weight: 600;
+  padding-right: 35px;
+}
+body .mobile .login .input .icon {
+  position: absolute;
+  right: 8px;
+  font-size: 1.2em;
+  color: #162938;
+  line-height: 3;
+}
+body .mobile .login .btn {
+  width: 100%;
+  height: 45px;
+  color: white;
+  background: linear-gradient(90deg, hsl(341, 95%, 49%) 0%, hsl(331, 81%, 59%) 100%);
+  border-radius: 50px;
+  cursor: pointer;
+}
+body .mobile .login .atau {
+  text-align: center;
+}
+body .mobile .login .atau .btn-google {
+  width: 100%;
+  height: 55px;
+  color: black;
+  background: transparent;
+  border: 2px solid #162938;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body .mobile .login .atau .btn-google img {
+  width: 30px;
+}
+body .mobile .social img {
+  margin-right: 5px;
+}
+body .mobile .bls_tittle {
+  width: 200px;
+}
+
+/* iPhone XR/11 */
+@media only screen and (max-width: 767px) {
+  body .row {
+    display: none;
+  }
+  body .mobile {
+    display: flex;
+    margin-top: 40px;
+  }
+}/*# sourceMappingURL=style.css.map */
