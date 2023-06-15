@@ -3,7 +3,7 @@
 ## Screenshots
 
 ### Home Page
-![preview img](/home).png)
+![preview img](/home.png)
 
 ### Course
 ![preview img](/course.png)
