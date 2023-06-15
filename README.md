@@ -2,6 +2,12 @@
 
 ## Screenshots
 
-![preview img](/preview.png)
-![preview img](/preview2.png)
+### Home Page
+![preview img](/Screenshot (877).png)
+
+### Course
+![preview img](/Screenshot (878).png)
+
+### Quiz
+![preview img](/Screenshot (879).png)
 
