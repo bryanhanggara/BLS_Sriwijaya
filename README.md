@@ -3,11 +3,11 @@
 ## Screenshots
 
 ### Home Page
-![preview img](/Screenshot (877).png)
+![preview img](/home).png)
 
 ### Course
-![preview img](/Screenshot (878).png)
+![preview img](/course.png)
 
 ### Quiz
-![preview img](/Screenshot (879).png)
+![preview img](/quiz.png)
 
